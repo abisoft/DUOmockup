@@ -1,0 +1,225 @@
+body {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #664;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #444;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1em; 
+}
+
+.h4_olympic {
+    font-weight: 100;
+     font-family: open-sans, helvetica;
+    
+}
+
+.mt-5 {
+  margin-top: 2rem !important;
+  margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: solid darkgray 0.5px;
+    color: black;
+}
+
+.navbar a {
+    color: black;
+}
+
+.paragraph {
+    font-family: open-sans, helvetica;
+    text-align: justify;
+    width: 65%;
+    max-width: 960px;
+    margin-top: 50px;
+    margin:auto;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    a {
+        color: black;
+    }
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar-toggler {
+    border: 1px solid black;
+    padding: 9px 10px;
+}
+
+.navbar-toggler-right {
+    position: absolute;
+    /* float: right; */
+    right: 7px;
+    top: 20px;
+}
+
+.navbar-toggler .icon-bar {
+    background-color: #000;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggler-icon {
+    background-color: transparent;
+    display: none;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;  
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+}
+
+.homepage_copy {
+    margin: auto;
+    
+}
+
+.entrance {
+    margin-bottom: 100px;
+}
+
+.contact_olympic {
+    margin: auto;
+    padding-top: 45px;
+}
+
+//**.text-center {
+    margin-bottom: 50px;
+}**//
+
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.btn-lg {
+    padding: .55rem 1rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.olympic {
+    color:white;
+    background-image: url("../image/track_grey.jpg");
+    padding: 100px 0px;
+    margin: 0 !important;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-block {
+    margin: auto;
+    width: 65%;
+}
+
+.box {
+    border: 1px solid green;
+}
+
+.intouch {
+    margin-top: 20px;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.padding_left {
+    padding-left: 50px;
+}
+
+.logo_position {
+    margin-top: 60px;
+}
+
+
+
+
+//**.icon-bar {
+color: black;
+border-color: black;
+background-color: black;
+
+}
+** //
+//**.navbar-light .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='48' height='36' viewBox='0 0 48 36' fill='rgb(28,28,28)'%3E%3Crect x='16' y='12' width='16' height='2' /%3E%3Crect x='16' y='17' width='16' height='2' /%3E%3Crect x='16' y='22' width='16' height='2' /%3E%3C/svg>");
+
+}
+** //
