@@ -35,7 +35,7 @@ h4 {
 
 .h4_olympic {
     font-weight: 100;
-     font-family: open-sans, helvetica;
+    font-family: open-sans, helvetica;
     
 }
 
@@ -122,6 +122,17 @@ h4 {
     padding-top: 10px;
 }
 
+.footerrelative {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.7rem;
@@ -147,7 +158,7 @@ h4 {
 
 .contact_olympic {
     margin: auto;
-    padding-top: 45px;
+    padding-top: 15px;
 }
 
 //**.text-center {
@@ -189,11 +200,24 @@ h4 {
 }
 
 .box {
-    border: 1px solid green;
+   
+}
+
+.projecttext {
+    width:280px;
+    text-align: justify;
+}
+.video {
+    width:280px;
+}
+
+.projectimg{
+    width:280px;
+    height:170px;
 }
 
 .intouch {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .align_left {
@@ -201,11 +225,15 @@ h4 {
 }
 
 .padding_left {
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 .logo_position {
     margin-top: 60px;
+}
+
+.helptext {
+    margin-top:25px;
 }
 
 
