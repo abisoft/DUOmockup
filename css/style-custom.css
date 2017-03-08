@@ -1,16 +1,17 @@
 body {
-    font-family: Lato, sans-serif;
+    
     font-size: 14px;
     line-height: 1.42857;
-    color: #664;
+    color: black;
     background-color: #f4f4f4;
 }
+font-family: Lato, sans-serif;
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Montserrat, sans-serif;
     font-weight: 700;
     line-height: 1.1;
     color: #444;
@@ -34,9 +35,16 @@ h4 {
 }
 
 .h4_olympic {
-    font-weight: 100;
-    font-family: open-sans, helvetica;
-    
+    font-weight: 100px;  
+}
+
+.h4_olympic_address {
+    font-weight: 100px; 
+  
+}
+
+.index_position_address {
+    font-size: 0.9em;
 }
 
 .mt-5 {
@@ -56,6 +64,7 @@ h4 {
 
 .paragraph {
     font-family: open-sans, helvetica;
+    font-weight: 300;
     text-align: justify;
     width: 65%;
     max-width: 960px;
@@ -177,8 +186,16 @@ h4 {
     border-radius: .3rem;
 }
 
+.right {
+    text-align: right;
+}
+
 .center{
     text-align: center;
+}
+
+.footer_index {
+    background-color: #f4f4f4;
 }
 
 .olympic {
@@ -206,14 +223,25 @@ h4 {
 .projecttext {
     width:280px;
     text-align: justify;
+    font-weight: 300;
 }
+
 .video {
     width:280px;
+    padding-bottom: 10px;
 }
 
 .projectimg{
     width:280px;
     height:170px;
+    padding-bottom: 10px;
+}
+
+.project_title {
+    padding-top: 5px;
+    color: darkblue;
+    margin-bottom: 3px;
+    font-size: 1.1rem;
 }
 
 .intouch {
@@ -232,12 +260,42 @@ h4 {
     margin-top: 60px;
 }
 
+.logo_position_vertical {
+    text-align: left;
+   margin-top: -50px;
+}
+
 .helptext {
     margin-top:25px;
 }
 
+.text_bottom {
+    margin-top: 450px;
+}
 
+.pull_right {
+ 
+}
 
+.index_position_duo {
+   margin-top: 230px;
+    font-weight: 600;
+}
+
+.index_position_address {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.index_position_text {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+a {
+    color: crimson;
+    font-weight: 300;
+}
 
 //**.icon-bar {
 color: black;
