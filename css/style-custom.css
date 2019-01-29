@@ -3,6 +3,7 @@ body {
     line-height: 1.42857;
     color: black;
     background-color: white;
+    font-family: "TsukuGoPr5-M", 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
 }
 
 ul {
@@ -11,6 +12,28 @@ ul {
 
 li {
     float: left;
+    padding: 10px 10px 10px 0px;
+    font-size: 0.857142857rem;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+}
+
+header {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    padding: 10px 10px 10px 0px;
+}
+
+.vertical-center {
+    vertical-align: middle;
+}
+
+a {
+    color: black;
 }
 
 font-family: Lato,
@@ -32,7 +55,8 @@ h1 {
 
 h2 {
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 50px;
+    line-height:
 }
 
 h3 {
@@ -60,6 +84,7 @@ h4 {
 
 .mt-5 {
     margin-bottom: 50px;
+    float: left;
 }
 
 margin-top: 2rem !important;
@@ -70,8 +95,14 @@ margin-top: 2rem !important;
 }
 
 .navbar a {
+<<<<<<< HEAD
     color: #c12209;
     font-weight: 500;
+=======
+    color: black;
+    font-weight: bold;
+    font-family: Arial, open-sans, helvetica;
+>>>>>>> e0f0068... changes on Works, about, projects page
 }
 
 .paragraph {
@@ -82,6 +113,21 @@ margin-top: 2rem !important;
     max-width: 960px;
     margin-top: 50px;
     margin: auto;
+}
+
+.paragraph-left {
+    font-family: open-sans, helvetica;
+    font-weight: 300;
+    text-align: justify;
+    width: 65%;
+    max-width: 960px;
+    margin-top: 50px;
+}
+
+.about {
+    line-height: 2.6;
+    font-family: "Noto Sans JP";
+    font-size: 1.071428571rem;
 }
 
 .navbar {
@@ -238,6 +284,7 @@ margin-top: 2rem !important;
     width: 100%;
     text-align: justify;
     font-weight: 300;
+    font-family: "Noto Sans JP";
 }
 
 .video {
@@ -256,6 +303,7 @@ margin-top: 2rem !important;
     color: darkblue;
     margin-bottom: 3px;
     font-size: 1.1rem;
+    font-family: "Noto Sans JP";
 }
 
 .get_in_touch {
