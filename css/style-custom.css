@@ -95,14 +95,9 @@ margin-top: 2rem !important;
 }
 
 .navbar a {
-<<<<<<< HEAD
-    color: #c12209;
-    font-weight: 500;
-=======
     color: black;
     font-weight: bold;
     font-family: Arial, open-sans, helvetica;
->>>>>>> e0f0068... changes on Works, about, projects page
 }
 
 .paragraph {
