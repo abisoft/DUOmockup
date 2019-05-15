@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DUO</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- sass link -->
+    <link href="css/style-custom.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <style>
+        /* Set top padding of the page to match the height of the navbar */
+        
+        body {
+            padding-top: 70px;
+        }
+        /* Ugly hacks to fix the container within navbar functionality - should be fixed in Bootstrap 4 beta */
+        
+        .navbar-toggler {
+            z-index: 1;
+        }
+        
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        <!--
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block') e.style.display = 'none';
+            else e.style.display = 'block';
+        }
+        //-->
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="image/logo_smallblack.svg" class="logo_size"></a>
+            <div class="collapse navbar-collapse" id="navbarExample">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="service.html">Service</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="works.html">Works</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="english.html">English page</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 onclick="toggle_visibility('foo');">日本テレビ</h2>
+                <div id="foo" class="wpb_text_column wpb_content_element open">
+                    <div class="wpb_wrapper">
+                        <div class="h2Opener2"><span><i class="flaticon-arrow487"></i><i class="flaticon-arrow483"></i></span>
+                            <div class="h2Opener">
+                                <h2>NHK・BS1・BSプレミアム・NHK World</h2></div>
+                        </div>
+                        <ul>
+                            <li><strong>imagine-nation</strong>
+                                <br> NHK World</li>
+                            <li><strong>岩合光昭の世界ネコ歩き</strong>
+                                <br> BSプレミアム</li>
+                            <li><strong>NHKスペシャル</strong></li>
+                            <li><strong>ガッテン！</strong></li>
+                            <li><strong>コズミックフロント</strong>
+                                <br> BSプレミアム</li>
+                            <li><strong>ザ・プロファイラー </strong>
+                                <br> BSプレミアム</li>
+                            <li><strong>地球アゴラ</strong>
+                                <br> BS-1</li>
+                            <li><strong>Tokyo Fashion Express</strong>
+                                <br> NHK World</li>
+                            <li><strong>廃炉への道</strong></li>
+                            <li><strong>お宝を掘り当てろ！！</strong> <strong>アンティーク鑑定旅<br>
+</strong>BSプレミアム</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2 class="mt-5">Works</h2>
+<!--<p class="lead"></p>-->
+    <div class="row">
+        <div class="col-sm-4 box"> <img src="image/shrine.jpg" class="projectimg">
+            <h4 class="project_title">ドキュメンタリー　映像制作</h4>
+            <p class="projecttext">映像</p>
+        </div>
+        <div class="col-sm-4 box"> <img src="image/nightview.jpg" class="projectimg">
+            <h4 class="project_title">テレビコマーシャル</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur </p>
+        </div>
+        <div class="col-sm-4 box">
+            <iframe src="https://www.youtube.com/embed/p85dFcB7vxQ?list=PL4LedMGHOob9asKtkz4UroWNsQ6ti1IXU" frameborder="0" allowfullscreen class="video"> </iframe>
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 box"> <img src="image/flower.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet </p>
+        </div>
+        <div class="col-sm-4 box"> <img src="image/baloons.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="col-sm-4 box"> <img src="image/headset.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 box"> <img src="image/phone.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet </p>
+        </div>
+        <div class="col-sm-4 box"> <img src="image/abstract.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur </p>
+        </div>
+        <div class="col-sm-4 box"> <img src="image/leaf.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, augue at commodo tristique, nunc magna vestibulum justo, at cursus libero erat et dolor. </p> <img src="image/shrine.jpg" class="projectimg"> </div>
+        <div class="col-sm-4 box">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <iframe src="https://www.youtube.com/embed/p85dFcB7vxQ?list=PL4LedMGHOob9asKtkz4UroWNsQ6ti1IXU" frameborder="0" allowfullscreen class="video"> </iframe>
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, augue at commodo tristique, nunc magna vestibulum justo, at cursus libero erat et dolor. </p> <img src="image/nightview.jpg" class="projectimg">
+            <h4 class="project_title">documentary title</h4>
+            <p class="projecttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+    </div>
+    <div class="footerrelative">
+        <ul class="list-unstyled text-center">
+            <li>©2017 DUO Creative Communications. All rights reserved.</li>
+        </ul>
+    </div>
+    <!-- jQuery Version 3.1.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Tether -->
+    <script src="js/tether.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
