@@ -38,7 +38,7 @@
     <nav class="navbar fixed-top navbar-toggleable-md">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <div class="container">
-            <a class="navbar-brand" href="index.html"> <img src="image/newlogo_sm.png"></a>
+            <a class="navbar-brand" href="index.html"> <img src="image/logo_new_sm.svg"></a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
@@ -61,19 +61,24 @@
                             <h2 class="mt-5 text-center">Contact Us</h2>
                             <!-- Name input-->
                             <div class="form-group">
-                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <label class="col-md-3 control-label" for="name">お名前</label>
+                                <div class="col-12">
+                                    <input id="name" name="name" type="text" placeholder="" class="form-control"> </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">貴社名</label>
                                 <div class="col-12">
                                     <input id="name" name="name" type="text" placeholder="" class="form-control"> </div>
                             </div>
                             <!-- Email input-->
                             <div class="form-group">
-                                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                <label class="col-md-3 control-label" for="email">メールアドレス</label>
                                 <div class="col-12">
                                     <input id="email" name="email" type="text" placeholder="" class="form-control"> </div>
                             </div>
                             <!-- Message body -->
                             <div class="form-group">
-                                <label class="col-md-3 control-label" for="message">Your message</label>
+                                <label class="col-md-3 control-label" for="message">メッセージ本文</label>
                                 <div class="col-12">
                                     <textarea class="form-control" id="message" name="message" placeholder="" rows="5"></textarea>
                                 </div>
@@ -81,7 +86,7 @@
                             <!-- Form actions -->
                             <div class="form-group">
                                 <div class="col-md-12 text-right">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    <button type="submit" class="btn btn-primary btn-lg">送信</button>
                                 </div>
                             </div>
                         </fieldset>
@@ -90,11 +95,9 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <ul class="list-unstyled text-center">
-            <li>©2017 DUO Creative Communications. All rights reserved.</li>
-        </ul>
-    </div>
+    <footer class="footer">
+        <div class="container"> <span class="text-muted">©2019 DUO Creative Communications. All rights reserved.</span> </div>
+    </footer>
     <!-- jQuery Version 3.1.1 -->
     <script src="js/jquery.js"></script>
     <!-- Tether -->
