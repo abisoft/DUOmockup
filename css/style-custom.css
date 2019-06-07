@@ -10,6 +10,22 @@ ul {
     list-style-type: none;
 }
 
+.collapsible-title.open .fa-chevron-right {
+    display: none;
+}
+
+.collapsible-title.open .fa-chevron-down {
+    display: inline-block;
+}
+
+.collapsible-title.closed .fa-chevron-right {
+    display: inline-block;
+}
+
+.collapsible-title.closed .fa-chevron-down {
+    display: none;
+}
+
 li {
     float: left;
     padding: 10px 10px 10px 0px;
@@ -26,6 +42,10 @@ li {
 header {
     vertical-align: middle;
     text-align: center;
+}
+
+.align-bottom {
+    align-items: flex-end !important;
 }
 
 .container-homepage {
@@ -129,11 +149,11 @@ margin-top: 2rem !important;
     text-align: justify;
     width: 65%;
     max-width: 960px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .company-profile {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .company-profile-table {
@@ -225,7 +245,7 @@ body {
     /* Set the fixed height of the footer here */
     line-height: 60px;
     /* Vertically center the text there */
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 
 .footerrelative {
@@ -247,7 +267,6 @@ body {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    font-family: ;
 }
 
 .navbar-brand:focus,
@@ -269,7 +288,7 @@ body {
 }
 
 .text-center {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .btn-primary {

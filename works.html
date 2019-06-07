@@ -14,6 +14,8 @@
     <link href="css/style-custom.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <!--    <script src="http://kit.fontawesome.com/fb71229b2b.js"></script>-->
     <style>
         /* Set top padding of the page to match the height of the navbar */
         
@@ -34,20 +36,30 @@
     </style>
     <script type="text/javascript">
         <!--
-        function toggle_visibility(id) {
-            var e = document.getElementById(id);
-            if (e.style.display == 'block') e.style.display = 'none';
-            else e.style.display = 'block';
+        function toggle_visibility(selfId, collapseId) {
+            console.log(this);
+            var collapseEl = document.getElementById(collapseId);
+            var selfEl = document.getElementById(selfId);
+            if (collapseEl.style.display == 'block') {
+                collapseEl.style.display = 'none';
+                selfEl.classList.add('closed');
+                selfEl.classList.remove('open');
+            }
+            else {
+                collapseEl.style.display = 'block';
+                selfEl.classList.remove('closed');
+                selfEl.classList.add('open');
+            }
         }
         //-->
     </script>
 </head>
 
-<body>
+<body> <i class="fas fa-chevron-right"></i>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <div class="container">
+        <div class="container align-bottom">
             <a class="navbar-brand" href="index.html"> <img src="image/logo_new_sm.svg"></a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
@@ -56,7 +68,7 @@
                     <li class="nav-item"> <a class="nav-link" href="service.html">Service</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="works.html">Works</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="english.html">English page</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="english.html">English</a> </li>
                 </ul>
             </div>
         </div>
@@ -65,8 +77,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 onclick="toggle_visibility('foo');">日本テレビ</h2>
-                <div id="foo" class="wpb_text_column wpb_content_element open">
+                <h2 id="title1" class="collapsible-title closed" onclick="toggle_visibility('title1', 'foo');">
+                <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-down"></i>
+                日本テレビ1
+                </h2>
+                <div id="foo" class="wpb_text_column wpb_content_element open" style="display:none">
                     <div class="wpb_wrapper">
                         <div class="h2Opener2"><span><i class="flaticon-arrow487"></i><i class="flaticon-arrow483"></i></span>
                             <div class="h2Opener">
@@ -113,8 +128,10 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 onclick="toggle_visibility('foo');">日本テレビ2</h2>
-                <div id="foo" class="wpb_text_column wpb_content_element open">
+                <h2 id="title2" class="collapsible-title closed" onclick="toggle_visibility('title2', 'foo0');">
+                <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-down"></i>
+                日本テレビ2</h2>
+                <div id="foo0" class="wpb_text_column wpb_content_element open" style="display:none">
                     <div class="wpb_wrapper">
                         <div class="h2Opener2"><span><i class="flaticon-arrow487"></i><i class="flaticon-arrow483"></i></span>
                             <div class="h2Opener">
@@ -161,8 +178,10 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 onclick="toggle_visibility('foo');">日本テレビ3</h2>
-                <div id="foo" class="wpb_text_column wpb_content_element open">
+                <h2 id="title3" class="collapsible-title closed" onclick="toggle_visibility('title3', 'foo1');">
+                <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-down"></i>
+                日本テレビ2</h2>
+                <div id="foo1" class="wpb_text_column wpb_content_element open" style="display:none">
                     <div class="wpb_wrapper">
                         <div class="h2Opener2"><span><i class="flaticon-arrow487"></i><i class="flaticon-arrow483"></i></span>
                             <div class="h2Opener">
